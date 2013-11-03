@@ -1,10 +1,10 @@
-# Copyright (C) 2013 
-# This file is distributed under the same license as the  package.
+# Copyright (C) 2013 Edit Flow
+# This file is distributed under the same license as the Edit Flow package.
 msgid ""
 msgstr ""
-"Project-Id-Version:  \n"
+"Project-Id-Version: Edit Flow 0.8-alpha2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/Edit-Flow\n"
-"POT-Creation-Date: 2013-11-02 01:35:45+00:00\n"
+"POT-Creation-Date: 2013-11-03 03:01:40+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,15 +30,15 @@ msgstr ""
 msgid "Pending Review"
 msgstr ""
 
-#: common/php/class-module.php:191 modules/calendar/calendar.php:972
-#: modules/calendar/calendar.php:1660
+#: common/php/class-module.php:191 modules/calendar/calendar.php:974
+#: modules/calendar/calendar.php:1662
 #: modules/custom-status/custom-status.php:388
 #: modules/story-budget/story-budget.php:742
 msgid "Published"
 msgstr ""
 
-#: common/php/class-module.php:193 modules/calendar/calendar.php:967
-#: modules/calendar/calendar.php:1658
+#: common/php/class-module.php:193 modules/calendar/calendar.php:969
+#: modules/calendar/calendar.php:1660
 #: modules/custom-status/custom-status.php:398
 #: modules/dashboard/dashboard.php:144
 #: modules/story-budget/story-budget.php:740
@@ -49,7 +49,7 @@ msgstr ""
 msgid "Private"
 msgstr ""
 
-#: common/php/class-module.php:196 modules/calendar/calendar.php:906
+#: common/php/class-module.php:196 modules/calendar/calendar.php:908
 #: modules/story-budget/story-budget.php:556
 msgid "Trash"
 msgstr ""
@@ -62,28 +62,28 @@ msgstr ""
 msgid "(no title)"
 msgstr ""
 
-#: edit_flow.php:225 modules/editorial-metadata/editorial-metadata.php:346
+#: edit-flow.php:225 modules/editorial-metadata/editorial-metadata.php:346
 msgid "Configure"
 msgstr ""
 
-#: edit_flow.php:228
+#: edit-flow.php:228
 msgid "Settings updated."
 msgstr ""
 
-#: edit_flow.php:229
+#: edit-flow.php:229
 msgid "Please correct your form errors below and try again."
 msgstr ""
 
-#: edit_flow.php:230 modules/settings/settings.php:107
+#: edit-flow.php:230 modules/settings/settings.php:107
 #: modules/settings/settings.php:362
 msgid "Cheatin&#8217; uh?"
 msgstr ""
 
-#: edit_flow.php:231
+#: edit-flow.php:231
 msgid "You do not have necessary permissions to complete this action."
 msgstr ""
 
-#: edit_flow.php:232
+#: edit-flow.php:232
 msgid "Post does not exist"
 msgstr ""
 
@@ -182,7 +182,7 @@ msgid_plural "%d posts restored from the Trash."
 msgstr[0] ""
 msgstr[1] ""
 
-#: modules/calendar/calendar.php:739 modules/calendar/calendar.php:1064
+#: modules/calendar/calendar.php:739 modules/calendar/calendar.php:1066
 msgid "Today"
 msgstr ""
 
@@ -190,31 +190,31 @@ msgstr ""
 msgid "Show %1$s more "
 msgstr ""
 
-#: modules/calendar/calendar.php:765
-msgid "Schedule a %s for %s"
+#: modules/calendar/calendar.php:766
+msgid "Schedule a %1$s for %2$s"
 msgstr ""
 
-#: modules/calendar/calendar.php:766
+#: modules/calendar/calendar.php:768
 msgid "%s Title"
 msgstr ""
 
-#: modules/calendar/calendar.php:769
+#: modules/calendar/calendar.php:771
 msgid "Create %s"
 msgstr ""
 
-#: modules/calendar/calendar.php:770
+#: modules/calendar/calendar.php:772
 msgid "Edit %s"
 msgstr ""
 
-#: modules/calendar/calendar.php:893
+#: modules/calendar/calendar.php:895
 msgid "None"
 msgstr ""
 
-#: modules/calendar/calendar.php:904
+#: modules/calendar/calendar.php:906
 msgid "Edit this item"
 msgstr ""
 
-#: modules/calendar/calendar.php:904
+#: modules/calendar/calendar.php:906
 #: modules/custom-status/custom-status.php:1670
 #: modules/editorial-metadata/editorial-metadata.php:1680
 #: modules/story-budget/story-budget.php:554
@@ -222,119 +222,119 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: modules/calendar/calendar.php:906
+#: modules/calendar/calendar.php:908
 msgid "Trash this item"
 msgstr ""
 
-#: modules/calendar/calendar.php:909
+#: modules/calendar/calendar.php:911
 #: modules/custom-status/custom-status.php:1508
 #: modules/story-budget/story-budget.php:562
 msgid "Preview &#8220;%s&#8221;"
 msgstr ""
 
-#: modules/calendar/calendar.php:909
+#: modules/calendar/calendar.php:911
 #: modules/custom-status/custom-status.php:1508
 #: modules/story-budget/story-budget.php:562
 msgid "Preview"
 msgstr ""
 
-#: modules/calendar/calendar.php:911 modules/story-budget/story-budget.php:560
+#: modules/calendar/calendar.php:913 modules/story-budget/story-budget.php:560
 msgid "View &#8220;%s&#8221;"
 msgstr ""
 
-#: modules/calendar/calendar.php:911 modules/story-budget/story-budget.php:560
+#: modules/calendar/calendar.php:913 modules/story-budget/story-budget.php:560
 msgid "View"
 msgstr ""
 
-#: modules/calendar/calendar.php:914
+#: modules/calendar/calendar.php:916
 msgid "Save &#8220;%s&#8221;"
 msgstr ""
 
-#: modules/calendar/calendar.php:914
+#: modules/calendar/calendar.php:916
 msgid "Save"
 msgstr ""
 
-#: modules/calendar/calendar.php:946 modules/story-budget/story-budget.php:181
+#: modules/calendar/calendar.php:948 modules/story-budget/story-budget.php:181
 msgid "Author"
 msgstr ""
 
-#: modules/calendar/calendar.php:954
+#: modules/calendar/calendar.php:956
 msgid "Post Type"
 msgstr ""
 
-#: modules/calendar/calendar.php:1040
+#: modules/calendar/calendar.php:1042
 #: modules/story-budget/story-budget.php:621
 msgid "Filter"
 msgstr ""
 
-#: modules/calendar/calendar.php:1052
+#: modules/calendar/calendar.php:1054
 #: modules/story-budget/story-budget.php:633
 msgid "Reset"
 msgstr ""
 
-#: modules/calendar/calendar.php:1058
+#: modules/calendar/calendar.php:1060
 msgid "Forward 1 week"
 msgstr ""
 
-#: modules/calendar/calendar.php:1058
+#: modules/calendar/calendar.php:1060
 msgid "&rsaquo;"
 msgstr ""
 
-#: modules/calendar/calendar.php:1060
+#: modules/calendar/calendar.php:1062
 msgid "Forward %d weeks"
 msgstr ""
 
-#: modules/calendar/calendar.php:1060
+#: modules/calendar/calendar.php:1062
 msgid "&raquo;"
 msgstr ""
 
-#: modules/calendar/calendar.php:1064
+#: modules/calendar/calendar.php:1066
 msgid "Today is %s"
 msgstr ""
 
-#: modules/calendar/calendar.php:1068
+#: modules/calendar/calendar.php:1070
 msgid "Back %d weeks"
 msgstr ""
 
-#: modules/calendar/calendar.php:1068
+#: modules/calendar/calendar.php:1070
 msgid "&laquo;"
 msgstr ""
 
-#: modules/calendar/calendar.php:1070
+#: modules/calendar/calendar.php:1072
 msgid "Back 1 week"
 msgstr ""
 
-#: modules/calendar/calendar.php:1070
+#: modules/calendar/calendar.php:1072
 msgid "&lsaquo;"
 msgstr ""
 
-#: modules/calendar/calendar.php:1271
+#: modules/calendar/calendar.php:1273
 msgid "for %1$s through %2$s"
 msgstr ""
 
-#: modules/calendar/calendar.php:1312
+#: modules/calendar/calendar.php:1314
 msgid "Number of weeks to show"
 msgstr ""
 
-#: modules/calendar/calendar.php:1313
+#: modules/calendar/calendar.php:1315
 msgid "Post types to show"
 msgstr ""
 
-#: modules/calendar/calendar.php:1314
+#: modules/calendar/calendar.php:1316
 msgid "Post type to create directly from calendar"
 msgstr ""
 
-#: modules/calendar/calendar.php:1315
+#: modules/calendar/calendar.php:1317
 msgid "Subscription in iCal or Google Calendar"
 msgstr ""
 
-#: modules/calendar/calendar.php:1352
+#: modules/calendar/calendar.php:1354
 msgid ""
 "The number of weeks shown on the calendar can be changed on a user-by-user "
 "basis using the calendar's screen options."
 msgstr ""
 
-#: modules/calendar/calendar.php:1362
+#: modules/calendar/calendar.php:1364
 #: modules/custom-status/custom-status.php:1096
 #: modules/dashboard/dashboard.php:237 modules/dashboard/dashboard.php:257
 #: modules/dashboard/dashboard.php:285
@@ -342,7 +342,7 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: modules/calendar/calendar.php:1363
+#: modules/calendar/calendar.php:1365
 #: modules/custom-status/custom-status.php:1097
 #: modules/dashboard/dashboard.php:238 modules/dashboard/dashboard.php:258
 #: modules/dashboard/dashboard.php:286
@@ -350,11 +350,11 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
-#: modules/calendar/calendar.php:1376
+#: modules/calendar/calendar.php:1378
 msgid "Regenerate calendar feed secret"
 msgstr ""
 
-#: modules/calendar/calendar.php:1417
+#: modules/calendar/calendar.php:1419
 #: modules/custom-status/custom-status.php:1230
 #: modules/dashboard/dashboard.php:327
 #: modules/editorial-comments/editorial-comments.php:412
@@ -364,59 +364,59 @@ msgstr ""
 msgid "Back to Edit Flow"
 msgstr ""
 
-#: modules/calendar/calendar.php:1438
+#: modules/calendar/calendar.php:1440
 msgid "No date supplied."
 msgstr ""
 
-#: modules/calendar/calendar.php:1442
+#: modules/calendar/calendar.php:1444
 msgid "Please change Quick Create to use a post type viewable on the calendar."
 msgstr ""
 
-#: modules/calendar/calendar.php:1448
+#: modules/calendar/calendar.php:1450
 msgid "Untitled"
 msgstr ""
 
-#: modules/calendar/calendar.php:1485
+#: modules/calendar/calendar.php:1487
 msgid "Post could not be created"
 msgstr ""
 
-#: modules/calendar/calendar.php:1537
+#: modules/calendar/calendar.php:1539
 msgid "Invalid post metadata type"
 msgstr ""
 
-#: modules/calendar/calendar.php:1558
+#: modules/calendar/calendar.php:1560
 msgid "Error updating post author."
 msgstr ""
 
-#: modules/calendar/calendar.php:1575
+#: modules/calendar/calendar.php:1577
 msgid "Invalid metadata type"
 msgstr ""
 
-#: modules/calendar/calendar.php:1588
+#: modules/calendar/calendar.php:1590
 msgid "Metadata could not be updated."
 msgstr ""
 
-#: modules/calendar/calendar.php:1652
+#: modules/calendar/calendar.php:1654
 #: modules/story-budget/story-budget.php:735
 msgid "View all statuses"
 msgstr ""
 
-#: modules/calendar/calendar.php:1659
+#: modules/calendar/calendar.php:1661
 #: modules/story-budget/story-budget.php:741
 msgid "Unpublished"
 msgstr ""
 
-#: modules/calendar/calendar.php:1668
+#: modules/calendar/calendar.php:1670
 #: modules/story-budget/story-budget.php:751
 msgid "View all categories"
 msgstr ""
 
-#: modules/calendar/calendar.php:1680
+#: modules/calendar/calendar.php:1682
 #: modules/story-budget/story-budget.php:763
 msgid "View all users"
 msgstr ""
 
-#: modules/calendar/calendar.php:1693
+#: modules/calendar/calendar.php:1695
 msgid "View all types"
 msgstr ""
 
@@ -1554,6 +1554,8 @@ msgstr ""
 msgid "Always notify blog admin"
 msgstr ""
 
+#. #-#-#-#-#  Edit-Flow.pot (Edit Flow 0.8-alpha2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
 #: modules/settings/settings.php:18 modules/settings/settings.php:192
 #: modules/settings/settings.php:195
 msgid "Edit Flow"
@@ -1857,4 +1859,20 @@ msgstr ""
 
 #: modules/user-groups/user-groups.php:1139
 msgid "Users in Group"
+msgstr ""
+
+#. #-#-#-#-#  Edit-Flow.pot (Edit Flow 0.8-alpha2)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  Edit-Flow.pot (Edit Flow 0.8-alpha2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://editflow.org/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Remixing the WordPress admin for better editorial workflow options."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid ""
+"Daniel Bachhuber, Scott Bressler, Mohammad Jangda, Automattic, and others"
 msgstr ""

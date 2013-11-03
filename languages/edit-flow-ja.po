@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Edit Flow 0.7.5-working\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/Edit-Flow\n"
-"POT-Creation-Date: 2013-11-02 01:35:45+00:00\n"
-"PO-Revision-Date: 2013-11-02 10:58+0900\n"
+"POT-Creation-Date: 2013-11-03 03:46:13+00:00\n"
+"PO-Revision-Date: 2013-11-03 12:46+0900\n"
 "Last-Translator: Naoko Takano <info@nao-net.com>\n"
 "Language-Team: \n"
 "Language: Japanese\n"
@@ -32,15 +32,15 @@ msgstr "下書き"
 msgid "Pending Review"
 msgstr "レビュー待ち"
 
-#: common/php/class-module.php:191 modules/calendar/calendar.php:972
-#: modules/calendar/calendar.php:1660
+#: common/php/class-module.php:191 modules/calendar/calendar.php:974
+#: modules/calendar/calendar.php:1662
 #: modules/custom-status/custom-status.php:388
 #: modules/story-budget/story-budget.php:742
 msgid "Published"
 msgstr "公開済み"
 
-#: common/php/class-module.php:193 modules/calendar/calendar.php:967
-#: modules/calendar/calendar.php:1658
+#: common/php/class-module.php:193 modules/calendar/calendar.php:969
+#: modules/calendar/calendar.php:1660
 #: modules/custom-status/custom-status.php:398
 #: modules/dashboard/dashboard.php:144
 #: modules/story-budget/story-budget.php:740
@@ -51,7 +51,7 @@ msgstr "投稿予約済み"
 msgid "Private"
 msgstr "プライベート"
 
-#: common/php/class-module.php:196 modules/calendar/calendar.php:906
+#: common/php/class-module.php:196 modules/calendar/calendar.php:908
 #: modules/story-budget/story-budget.php:556
 msgid "Trash"
 msgstr "ゴミ箱"
@@ -64,28 +64,28 @@ msgstr "無効なタクソノミー"
 msgid "(no title)"
 msgstr "(無題)"
 
-#: edit_flow.php:225 modules/editorial-metadata/editorial-metadata.php:346
+#: edit-flow.php:225 modules/editorial-metadata/editorial-metadata.php:346
 msgid "Configure"
 msgstr "設定"
 
-#: edit_flow.php:228
+#: edit-flow.php:228
 msgid "Settings updated."
 msgstr "設定を更新しました。"
 
-#: edit_flow.php:229
+#: edit-flow.php:229
 msgid "Please correct your form errors below and try again."
 msgstr "以下のフォームエラーを修正してもう一度お試しください。"
 
-#: edit_flow.php:230 modules/settings/settings.php:107
+#: edit-flow.php:230 modules/settings/settings.php:107
 #: modules/settings/settings.php:362
 msgid "Cheatin&#8217; uh?"
 msgstr "間違えましたか ?"
 
-#: edit_flow.php:231
+#: edit-flow.php:231
 msgid "You do not have necessary permissions to complete this action."
 msgstr "この操作を完了する権限がありません。"
 
-#: edit_flow.php:232
+#: edit-flow.php:232
 msgid "Post does not exist"
 msgstr "投稿が存在しません。"
 
@@ -198,39 +198,42 @@ msgid "Post restored from the Trash."
 msgid_plural "%d posts restored from the Trash."
 msgstr[0] "%s件の投稿をゴミ箱から元に戻しました。"
 
-#: modules/calendar/calendar.php:739 modules/calendar/calendar.php:1064
+#: modules/calendar/calendar.php:739 modules/calendar/calendar.php:1066
 msgid "Today"
 msgstr "今日"
 
 #: modules/calendar/calendar.php:757
-msgid "Show %1$s more "
-msgstr "%1$s件追加表示"
-
-#: modules/calendar/calendar.php:765
-msgid "Schedule a %s for %s"
-msgstr "%sを%sに予約"
+msgid "Show %d more"
+msgstr "さらに%d件を表示"
 
 #: modules/calendar/calendar.php:766
+msgid "Schedule a %1$s for %2$s"
+msgstr "%1$sを%2$sに予約"
+
+#: modules/calendar/calendar.php:768
+msgctxt "post type name"
 msgid "%s Title"
 msgstr "%sのタイトル"
 
-#: modules/calendar/calendar.php:769
+#: modules/calendar/calendar.php:771
+msgctxt "post type name"
 msgid "Create %s"
 msgstr "%sを作成"
 
-#: modules/calendar/calendar.php:770
+#: modules/calendar/calendar.php:772
+msgctxt "post type name"
 msgid "Edit %s"
 msgstr "%sを編集"
 
-#: modules/calendar/calendar.php:893
+#: modules/calendar/calendar.php:895
 msgid "None"
 msgstr "なし"
 
-#: modules/calendar/calendar.php:904
+#: modules/calendar/calendar.php:906
 msgid "Edit this item"
 msgstr "この項目を編集"
 
-#: modules/calendar/calendar.php:904
+#: modules/calendar/calendar.php:906
 #: modules/custom-status/custom-status.php:1670
 #: modules/editorial-metadata/editorial-metadata.php:1680
 #: modules/story-budget/story-budget.php:554
@@ -238,120 +241,120 @@ msgstr "この項目を編集"
 msgid "Edit"
 msgstr "編集"
 
-#: modules/calendar/calendar.php:906
+#: modules/calendar/calendar.php:908
 msgid "Trash this item"
 msgstr "この項目をゴミ箱へ移動"
 
-#: modules/calendar/calendar.php:909
+#: modules/calendar/calendar.php:911
 #: modules/custom-status/custom-status.php:1508
 #: modules/story-budget/story-budget.php:562
 msgid "Preview &#8220;%s&#8221;"
-msgstr "&#8220;%s&#8221; をプレビュー"
+msgstr "「%s」をプレビュー"
 
-#: modules/calendar/calendar.php:909
+#: modules/calendar/calendar.php:911
 #: modules/custom-status/custom-status.php:1508
 #: modules/story-budget/story-budget.php:562
 msgid "Preview"
 msgstr "プレビュー"
 
-#: modules/calendar/calendar.php:911 modules/story-budget/story-budget.php:560
+#: modules/calendar/calendar.php:913 modules/story-budget/story-budget.php:560
 msgid "View &#8220;%s&#8221;"
-msgstr "&#8220;%s&#8221; を表示"
+msgstr "「%s」を表示"
 
-#: modules/calendar/calendar.php:911 modules/story-budget/story-budget.php:560
+#: modules/calendar/calendar.php:913 modules/story-budget/story-budget.php:560
 msgid "View"
 msgstr "表示"
 
-#: modules/calendar/calendar.php:914
+#: modules/calendar/calendar.php:916
 msgid "Save &#8220;%s&#8221;"
 msgstr "「%s」を保存"
 
-#: modules/calendar/calendar.php:914
+#: modules/calendar/calendar.php:916
 msgid "Save"
 msgstr "保存"
 
-#: modules/calendar/calendar.php:946 modules/story-budget/story-budget.php:181
+#: modules/calendar/calendar.php:948 modules/story-budget/story-budget.php:181
 msgid "Author"
 msgstr "投稿者"
 
-#: modules/calendar/calendar.php:954
+#: modules/calendar/calendar.php:956
 msgid "Post Type"
 msgstr "投稿タイプ"
 
-#: modules/calendar/calendar.php:1040
+#: modules/calendar/calendar.php:1042
 #: modules/story-budget/story-budget.php:621
 msgid "Filter"
 msgstr "フィルタ"
 
-#: modules/calendar/calendar.php:1052
+#: modules/calendar/calendar.php:1054
 #: modules/story-budget/story-budget.php:633
 msgid "Reset"
 msgstr "リセット"
 
-#: modules/calendar/calendar.php:1058
+#: modules/calendar/calendar.php:1060
 msgid "Forward 1 week"
-msgstr "1週間後"
+msgstr "1週間先へ"
 
-#: modules/calendar/calendar.php:1058
+#: modules/calendar/calendar.php:1060
 msgid "&rsaquo;"
 msgstr "&rsaquo;"
 
-#: modules/calendar/calendar.php:1060
+#: modules/calendar/calendar.php:1062
 msgid "Forward %d weeks"
-msgstr "%d週間後"
+msgstr "%d週間先へ"
 
-#: modules/calendar/calendar.php:1060
+#: modules/calendar/calendar.php:1062
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: modules/calendar/calendar.php:1064
+#: modules/calendar/calendar.php:1066
 msgid "Today is %s"
-msgstr "今日は%s"
+msgstr "今日は%sです"
 
-#: modules/calendar/calendar.php:1068
+#: modules/calendar/calendar.php:1070
 msgid "Back %d weeks"
-msgstr "%d週間戻す"
+msgstr "%d週間前へ"
 
-#: modules/calendar/calendar.php:1068
+#: modules/calendar/calendar.php:1070
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: modules/calendar/calendar.php:1070
+#: modules/calendar/calendar.php:1072
 msgid "Back 1 week"
-msgstr "1週間戻す"
+msgstr "1週間前へ"
 
-#: modules/calendar/calendar.php:1070
+#: modules/calendar/calendar.php:1072
 msgid "&lsaquo;"
 msgstr "&lsaquo;"
 
-#: modules/calendar/calendar.php:1271
+#: modules/calendar/calendar.php:1273
 msgid "for %1$s through %2$s"
 msgstr "(%1$sから%2$s)"
 
-#: modules/calendar/calendar.php:1312
+#: modules/calendar/calendar.php:1314
 msgid "Number of weeks to show"
 msgstr "表示する週の数"
 
-#: modules/calendar/calendar.php:1313
+#: modules/calendar/calendar.php:1315
 msgid "Post types to show"
 msgstr "表示する投稿タイプ"
 
-#: modules/calendar/calendar.php:1314
+#: modules/calendar/calendar.php:1316
 msgid "Post type to create directly from calendar"
 msgstr "カレンダーから直接作成する投稿タイプ"
 
-#: modules/calendar/calendar.php:1315
+#: modules/calendar/calendar.php:1317
 msgid "Subscription in iCal or Google Calendar"
 msgstr "iCal / Googleカレンダーでの購読"
 
-#: modules/calendar/calendar.php:1352
+#: modules/calendar/calendar.php:1354
 msgid ""
 "The number of weeks shown on the calendar can be changed on a user-by-user "
 "basis using the calendar's screen options."
 msgstr ""
 "カレンダーに表示する週の数はユーザーごとの表示オプションで変えられます。"
 
-#: modules/calendar/calendar.php:1362
+#: modules/calendar/calendar.php:1364
 #: modules/custom-status/custom-status.php:1096
 #: modules/dashboard/dashboard.php:237 modules/dashboard/dashboard.php:257
 #: modules/dashboard/dashboard.php:285
@@ -359,7 +362,7 @@ msgstr ""
 msgid "Disabled"
 msgstr "無効化"
 
-#: modules/calendar/calendar.php:1363
+#: modules/calendar/calendar.php:1365
 #: modules/custom-status/custom-status.php:1097
 #: modules/dashboard/dashboard.php:238 modules/dashboard/dashboard.php:258
 #: modules/dashboard/dashboard.php:286
@@ -367,11 +370,11 @@ msgstr "無効化"
 msgid "Enabled"
 msgstr "有効化"
 
-#: modules/calendar/calendar.php:1376
+#: modules/calendar/calendar.php:1378
 msgid "Regenerate calendar feed secret"
 msgstr "カレンダーフィードのシークレットを再生成"
 
-#: modules/calendar/calendar.php:1417
+#: modules/calendar/calendar.php:1419
 #: modules/custom-status/custom-status.php:1230
 #: modules/dashboard/dashboard.php:327
 #: modules/editorial-comments/editorial-comments.php:412
@@ -381,61 +384,61 @@ msgstr "カレンダーフィードのシークレットを再生成"
 msgid "Back to Edit Flow"
 msgstr "Edit Flow へ戻る"
 
-#: modules/calendar/calendar.php:1438
+#: modules/calendar/calendar.php:1440
 msgid "No date supplied."
 msgstr "日付が指定されていません。"
 
-#: modules/calendar/calendar.php:1442
+#: modules/calendar/calendar.php:1444
 msgid "Please change Quick Create to use a post type viewable on the calendar."
 msgstr ""
 "「クイック作成」がカレンダーで表示できる投稿タイプを使うよう変更してくださ"
 "い。"
 
-#: modules/calendar/calendar.php:1448
+#: modules/calendar/calendar.php:1450
 msgid "Untitled"
 msgstr "無題"
 
-#: modules/calendar/calendar.php:1485
+#: modules/calendar/calendar.php:1487
 msgid "Post could not be created"
 msgstr "投稿を作成できませんでした"
 
-#: modules/calendar/calendar.php:1537
+#: modules/calendar/calendar.php:1539
 msgid "Invalid post metadata type"
 msgstr "無効なメタデータの種類です"
 
-#: modules/calendar/calendar.php:1558
+#: modules/calendar/calendar.php:1560
 msgid "Error updating post author."
 msgstr "投稿者更新の際にエラーが発生しました。"
 
-#: modules/calendar/calendar.php:1575
+#: modules/calendar/calendar.php:1577
 msgid "Invalid metadata type"
 msgstr "無効なメタデータの種類"
 
-#: modules/calendar/calendar.php:1588
+#: modules/calendar/calendar.php:1590
 msgid "Metadata could not be updated."
 msgstr "メタデータを更新できませんでした。"
 
-#: modules/calendar/calendar.php:1652
+#: modules/calendar/calendar.php:1654
 #: modules/story-budget/story-budget.php:735
 msgid "View all statuses"
 msgstr "すべてのステータスを表示"
 
-#: modules/calendar/calendar.php:1659
+#: modules/calendar/calendar.php:1661
 #: modules/story-budget/story-budget.php:741
 msgid "Unpublished"
 msgstr "非公開"
 
-#: modules/calendar/calendar.php:1668
+#: modules/calendar/calendar.php:1670
 #: modules/story-budget/story-budget.php:751
 msgid "View all categories"
 msgstr "すべてのカテゴリーを表示"
 
-#: modules/calendar/calendar.php:1680
+#: modules/calendar/calendar.php:1682
 #: modules/story-budget/story-budget.php:763
 msgid "View all users"
 msgstr "すべてのユーザーを表示"
 
-#: modules/calendar/calendar.php:1693
+#: modules/calendar/calendar.php:1695
 msgid "View all types"
 msgstr "すべてのタイプを表示"
 
@@ -561,9 +564,9 @@ msgid ""
 "JavaScript disabled. You will not be able to access or change the post "
 "status."
 msgstr ""
-"<strong>注:</strong> お使いのブラウザでは JavaScript に対応していないか、設定"
-"で無効になっているようです。投稿ステータスへのアクセスや変更を行うことはでき"
-"ません。"
+"<strong>注:</strong> お使いのブラウザは JavaScript に対応していないか、設定で"
+"無効になっているようです。投稿ステータスへのアクセスや変更を行うことはできま"
+"せん。"
 
 #: modules/custom-status/custom-status.php:393
 msgid "Privately Published"
@@ -960,10 +963,6 @@ msgstr "投稿が最初に保存された後に編集用コメントを追加で
 
 #: modules/editorial-comments/editorial-comments.php:192
 msgid "Respond to this post"
-msgstr "この投稿にコメント"
-
-#: modules/editorial-comments/editorial-comments.php:192
-msgid "Respond to this Post"
 msgstr "この投稿にコメント"
 
 #: modules/editorial-comments/editorial-comments.php:202
@@ -1512,7 +1511,7 @@ msgstr "[%1$s] 新規%2$sが作成されました: \"%3$s\""
 #. email
 #: modules/notifications/notifications.php:518
 msgid "A new %1$s (#%2$s \"%3$s\") was created by %4$s %5$s"
-msgstr "%4$s %5$s が新規%1$s (#%2$s \"%3$s\") を作成しました。"
+msgstr "%4$s (%5$s) が新規%1$s (#%2$s \"%3$s\") を作成しました。"
 
 #. translators: 1: site name, 2: post type, 3. post title
 #: modules/notifications/notifications.php:521
@@ -1558,7 +1557,7 @@ msgstr "[%1$s] %2$sが公開されました: \"%3$s\""
 #. email
 #: modules/notifications/notifications.php:538
 msgid "%1$s #%2$s \"%3$s\" was published by %4$s %5$s"
-msgstr "%4$s %5$s が %1$s #%2$s \"%3$s\" を公開しました。"
+msgstr "%4$s (%5$s) が %1$s #%2$s \"%3$s\" を公開しました。"
 
 #. translators: 1: site name, 2: post type, 3. post title
 #: modules/notifications/notifications.php:541
@@ -1569,7 +1568,7 @@ msgstr "[%1$s] %2$sが非公開になりました: \"%3$s\""
 #. email
 #: modules/notifications/notifications.php:543
 msgid "%1$s #%2$s \"%3$s\" was unpublished by %4$s %5$s"
-msgstr "%4$s %5$s が %1$s #%2$s \"%3$s\" を非公開にしました。"
+msgstr "%4$s (%5$s) が %1$s #%2$s \"%3$s\" を非公開にしました。"
 
 #. translators: 1: site name, 2: post type, 3. post title
 #: modules/notifications/notifications.php:546
@@ -1580,7 +1579,7 @@ msgstr "[%1$s] %2$sのステータスが変更されました: \"%3$s\""
 #. email
 #: modules/notifications/notifications.php:548
 msgid "Status was changed for %1$s #%2$s \"%3$s\" by %4$s %5$s"
-msgstr "%4$s %5$s が %1$s #%2$s \"%3$s\" のステータスを変更しました。"
+msgstr "%4$s (%5$s) が %1$s #%2$s \"%3$s\" のステータスを変更しました。"
 
 #. translators: 1: date, 2: time, 3: timezone
 #: modules/notifications/notifications.php:552
@@ -1594,7 +1593,7 @@ msgstr "%1$s => %2$s"
 
 #: modules/notifications/notifications.php:565
 msgid "== %s Details =="
-msgstr "== %s 詳細 =="
+msgstr "== %s詳細 =="
 
 #: modules/notifications/notifications.php:566
 msgid "Title: %s"
@@ -1664,6 +1663,8 @@ msgstr "通知する投稿タイプ:"
 msgid "Always notify blog admin"
 msgstr "ブログ管理者には必ず通知する"
 
+#. #-#-#-#-#  Edit-Flow.pot (Edit Flow 0.8-alpha2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
 #: modules/settings/settings.php:18 modules/settings/settings.php:192
 #: modules/settings/settings.php:195
 msgid "Edit Flow"
@@ -1764,8 +1765,10 @@ msgid "Number of Columns: "
 msgstr "カラムの数:"
 
 #: modules/story-budget/story-budget.php:335
+msgctxt ""
+"%1$s = start date, %2$s = number of days, %3$s = translation of 'Days'"
 msgid "starting %1$s showing %2$s %3$s"
-msgstr "%1$sから%2$s %3$s"
+msgstr "%1$sから%2$s%3$sを表示中"
 
 #: modules/story-budget/story-budget.php:335
 msgid "day"
@@ -1792,13 +1795,13 @@ msgstr "この項目をゴミ箱に移動する"
 
 #: modules/story-budget/story-budget.php:592
 msgid "Item moved to the trash."
-msgid_plural "%s items moved to the trash."
-msgstr[0] "%s件の項目をゴミ箱に移動しました。"
+msgid_plural "%d items moved to the trash."
+msgstr[0] "%d件の項目をゴミ箱に移動しました。"
 
 #: modules/story-budget/story-budget.php:599
 msgid "Item restored from the Trash."
-msgid_plural "%s items restored from the Trash."
-msgstr[0] "%s件の項目をゴミ箱から元に戻しました。"
+msgid_plural "%d items restored from the Trash."
+msgstr[0] "%d件の項目をゴミ箱から元に戻しました。"
 
 #: modules/story-budget/story-budget.php:638
 msgid "Print"
@@ -1990,3 +1993,22 @@ msgstr "ユーザーグループがありません。"
 #: modules/user-groups/user-groups.php:1139
 msgid "Users in Group"
 msgstr "グループ内のユーザー"
+
+#. #-#-#-#-#  Edit-Flow.pot (Edit Flow 0.8-alpha2)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  Edit-Flow.pot (Edit Flow 0.8-alpha2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://editflow.org/"
+msgstr "http://editflow.org/"
+
+#. Description of the plugin/theme
+msgid "Remixing the WordPress admin for better editorial workflow options."
+msgstr "WordPress 管理画面で、より良い編集者向けワークフロー設定を提供します。"
+
+#. Author of the plugin/theme
+msgid ""
+"Daniel Bachhuber, Scott Bressler, Mohammad Jangda, Automattic, and others"
+msgstr "Daniel Bachhuber、Scott Bressler、Mohammad Jangda、Automattic 他"
+
+#~ msgid "Respond to this Post"
+#~ msgstr "この投稿にコメント"
